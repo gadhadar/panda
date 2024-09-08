@@ -4,7 +4,7 @@ import time
 from panda import PandaJungle
 
 if __name__ == "__main__":
-  jungle = PandaJungle()
+  jungle = PandaJungle(cli=True)
 
   while True:
     for bus in range(3):

@@ -8,7 +8,7 @@ def get_test_string():
   return b"test" + os.urandom(10)
 
 if __name__ == "__main__":
-  p = Panda()
+  p = Panda(cli=True)
   p.set_safety_mode(Panda.SAFETY_ALLOUTPUT)
 
   print("Spamming all buses...")

@@ -11,7 +11,8 @@ def sec_since_boot():
   return time.time()
 
 def can_printer():
-  p = PandaJungle()
+  p = PandaJungle(cli=True)
+
 
   start = sec_since_boot()
   lp = sec_since_boot()
